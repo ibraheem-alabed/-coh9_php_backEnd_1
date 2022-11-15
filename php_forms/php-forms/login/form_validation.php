@@ -4,7 +4,7 @@ $_SESSION['error'] = null;
 
 
 if ($_SERVER["REQUEST_METHOD"] != "POST" && empty($_POST)) 
-die("you are bad guys");
+    die("you are bad guys");
 
 $email = isset($_POST["email"]) ? $_POST["email"] : null;
 $pas = isset($_POST["pas"]) ? $_POST["pas"] : null;
