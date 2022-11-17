@@ -1,0 +1,117 @@
+body{
+    width: 70%;
+    height: 80%;
+    margin: 5rem auto;
+    font-size: 250%;
+    background-image: url("/img/55.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lora', serif;
+}
+.containar{
+    display: flex;
+    justify-content: space-between;
+    align-items :center;
+    border: 6px black solid;
+    border-radius: 5%;
+
+}
+.my_img{
+    order: 3;
+    border-radius: 50%;
+}
+.myname{
+    font-size: 200%;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+#hr{
+    border: 5px black solid;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.nav li a{
+    color: #185673;
+    text-decoration: none;
+    font-size: 120%;
+    border: 5px #185673 solid;
+    border-radius: 30%;
+}
+.nav li a:hover{
+    opacity: 0.5;
+}
+.main_cont{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aside{
+    order: 2;
+    background-color: #185673;
+    width: 30%;
+}
+.info{
+    width: 60%;
+}
+hr{
+    border: 3px #185673 solid;
+    border-radius: 50%;
+}
+.aside h2 {
+    color: black;
+}
+.info h2{
+    color: #185673;
+    border: 1rem outset;
+}
+p:hover{
+    color: #2095d8;
+}
+li:hover{
+    color: #2c3235;
+}
+footer{
+    font-size: 70%;
+}
+
+@media only screen and (max-width:1350px){
+    .containar{
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items :center;
+        border: 6px black solid;
+        border-radius: 5%;
+        width: 115%;
+    }
+    .nav{
+        flex-direction: column;
+        justify-content: space-between;
+        list-style: none;
+    }
+    .nav li{
+        margin-bottom: 3rem;
+    }
+    .main_cont{
+        display: block;
+        width: 100%;
+    }
+    .info{
+        width: 100%;
+    }
+    .aside{
+        order: 2;
+        background-color: #185673;
+        background-size: contain;
+        width: 100%;
+    }
+    .info h2{
+        color: #185673;
+        border: 1rem outset;
+        text-align: center;
+    }
+}
