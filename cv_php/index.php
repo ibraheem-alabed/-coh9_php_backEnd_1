@@ -18,7 +18,7 @@
 
         <div class="col-4 border-end my-5">
         <div class="input-group mb-3">
-        <input type="search" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <input type="search" class="form-control" placeholder="Recipient's username" name="s" aria-label="Recipient's username" aria-describedby="button-addon2">
         <button class="btn btn-outline-secondary" type="button" id="button-addon2">search</button>
 </div>
         </div>
